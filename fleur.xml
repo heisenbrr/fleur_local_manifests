@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	# Device Sources
-	<project path="device/xiaomi/fleur" name="StasGr12/android_device_xiaomi_fleur" revision="lineage-23.2" remote="github" />
-	<project path="kernel/xiaomi/mt6781" name="StasGr12/android_kernel_xiaomi_mt6781" revision="lineage-23.2-ksun-susfs" remote="github" />
-	<project path="vendor/xiaomi/fleur" name="z3rh0/proprietary_vendor_xiaomi_fleur" revision="lineage-23.2" remote="github" />
-	# Other Sources
-	<project path="hardware/mediatek" name="mt6781-devs/android_hardware_mediatek" revision="lineage-23.2" remote="github" />
-	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-23.2" remote="github" />
-	<project path="device/mediatek/sepolicy_vndr" name="mt6781-devs/android_device_mediatek_sepolicy_vndr" revision="lineage-23.2" remote="github" />	
-	<project path="vendor/mediatek/ims" name="techyminati/android_vendor_mediatek_ims" revision="android-16-qpr2" remote="github" />
+	<remote name="github" fetch="https://github.com" />
+
+	<!-- Device Sources -->
+	<project path="device/xiaomi/fleur" name="StasGr12/android_device_xiaomi_fleur" revision="lineage-23.2" remote="github" clone-depth="1" />
+	<project path="kernel/xiaomi/mt6781" name="StasGr12/android_kernel_xiaomi_mt6781" revision="lineage-23.2-ksun-susfs" remote="github" clone-depth="1" />
+	<project path="vendor/xiaomi/fleur" name="z3rh0/proprietary_vendor_xiaomi_fleur" revision="lineage-23.2" remote="github" clone-depth="1" />
+
+	<!-- Other Sources -->
+	<project path="hardware/mediatek" name="mt6781-devs/android_hardware_mediatek" revision="lineage-23.2" remote="github" clone-depth="1" />
+	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-23.2" remote="github" clone-depth="1" />
+	<project path="device/mediatek/sepolicy_vndr" name="mt6781-devs/android_device_mediatek_sepolicy_vndr" revision="lineage-23.2" remote="github" clone-depth="1" />	
+	<project path="vendor/mediatek/ims" name="techyminati/android_vendor_mediatek_ims" revision="android-16-qpr2" remote="github" clone-depth="1" />
 </manifest>

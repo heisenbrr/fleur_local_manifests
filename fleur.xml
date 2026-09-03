@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- Remote Tanımı -->
-	<remote name="github" fetch="https://github.com" />
-
 	<!-- Device Sources -->
 	<project path="device/xiaomi/fleur" name="StasGr12/android_device_xiaomi_fleur" revision="lineage-23.2" remote="github" />
 	<project path="kernel/xiaomi/mt6781" name="StasGr12/android_kernel_xiaomi_mt6781" revision="lineage-23.2-ksun-susfs" remote="github" />

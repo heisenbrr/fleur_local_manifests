@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Device Sources -->
-	<project path="device/xiaomi/fleur" name="StasGr12/android_device_xiaomi_fleur" revision="lineage-23.2" remote="github" />
+	<project path="device/xiaomi/fleur" name="heisenbrr/android_device_xiaomi_fleur" revision="lineage-23.2" remote="github" />
 	<project path="kernel/xiaomi/mt6781" name="StasGr12/android_kernel_xiaomi_mt6781" revision="lineage-23.2-ksun-susfs" remote="github" />
 	<project path="vendor/xiaomi/fleur" name="z3rh0/proprietary_vendor_xiaomi_fleur" revision="lineage-23.2" remote="github" />
 
